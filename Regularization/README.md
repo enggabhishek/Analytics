@@ -31,3 +31,4 @@ The provided R code is focused on implementing various data science concepts, pa
 
 8. ### Model Evaluation - Lasso Regression:
    - Determining the Root Mean Square Error (RMSE) on both the training and test sets using the selected lasso regression model.
+   Save the file.
