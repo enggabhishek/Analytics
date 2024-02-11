@@ -1,4 +1,4 @@
-The code demonstrates a comprehensive data analysis process, from data cleaning and exploration to visualization and modeling:
+The code shows a comprehensive data analysis process, from data cleaning and exploration to visualization and modeling:
 1. ### Exploratory Data Analysis (EDA):
     -Generating summary statistics for specific columns (dplyr::select, group_by, summarize).
     -Creating bar charts and visualizations to explore relationships between variables (ggplot2).
