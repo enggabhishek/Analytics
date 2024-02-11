@@ -1,18 +1,3 @@
-#File: Module 3 Project 3
-#Project: Introduction to Analytics
-#Author : Fnu Abhishek
-
-#
-#Clean Canvas----
-#Empty the variables
-rm(list = ls())
-#Removing plots
-dev.off()
-
-#Printing the name of the author
-print("Fnu Abhishek")
-
-install.packages('car')
 #Load library ----
 library(car)
 library(tidyverse)
@@ -28,7 +13,7 @@ library(hash)
 
 #Import 'inchBio.csv' dataset:
 
-setwd("C:/Users/Abhishek Mishra/Documents/ALY6000/Week 6")
+setwd("C:/Users/XYZ")
 
 dataset<- read.csv("Netflix_Movies_DataSet.csv", header=TRUE)
 print(tail(dataset))
@@ -220,5 +205,8 @@ pc <- ggplot(data = final_df) +
   scale_y_continuous(labels =c(0,d$cumcounts),breaks=c(0,d$cumcounts),sec.axis = dup_axis(~ .*(d$cumfreq*100/d$cumcounts),breaks=c(0,round(d$cumfreq*100)),labels = c(0,round(d$cumfreq*100)),name=''))
 show(pc)
 
-
-
+#Clean Canvas----
+#Empty the variables
+rm(list = ls())
+#Removing plots
+dev.off()
