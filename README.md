@@ -4,9 +4,6 @@ In the provided R code, the Chi-Square Goodness of Fit Test assesses the differe
 ### Fish_Dataset.R
 In the R code, linear regression is employed to explore relationships between fish characteristics. Three separate regression analyses are conducted, examining the influence of fish weight on vertical length, height, and diagonal width. Each regression model is visualized through scatter plots, and their details are summarized, providing insights into the associations between the variables.
 
-### BostonHousingDataset.R
-The R script performs a comprehensive analysis of a Boston housing dataset, exploring factors such as building costs, land costs, and taxes across decades. It includes data cleaning, summary statistics, visualization with bar charts and scatter plots, linear regression modeling, and correlation matrices. The script produces insightful visualizations and statistical insights for effective data interpretation.
-
 ### HypothesisTesting.R & HypothesisTesting2.R
 The R code conducts hypothesis testing on educational and sleep quality data. For student performance, it assesses gender-based score differences, rejecting null hypotheses for math and writing scores. In sleep quality, the code compares scores before and after meditation, rejecting the null hypothesis of equal means, indicating a potential impact on sleep quality.
 
